@@ -484,3 +484,11 @@ document.querySelectorAll('a, button').forEach(el => {
         this.style.outline = 'none';
     });
 });
+
+function getCurrentDate(){
+dT = new Date();
+return dT;
+}
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
