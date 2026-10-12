@@ -1,0 +1,25 @@
+2026-10-12T14:09:25.119145Z	Cloning repository...
+2026-10-12T14:09:26.14393Z	From https://github.com/engrfarazhashmikhi/engrfarazhashmikhi.github.io
+2026-10-12T14:09:26.144335Z	 * branch            7ab78f85c201e9da8b7a3d9630f3f594bf7163f5 -> FETCH_HEAD
+2026-10-12T14:09:26.144442Z	
+2026-10-12T14:09:26.157377Z	HEAD is now at 7ab78f8 Update CNAME
+2026-10-12T14:09:26.157615Z	
+2026-10-12T14:09:26.201771Z	
+2026-10-12T14:09:26.202086Z	Using v2 root directory strategy
+2026-10-12T14:09:26.212811Z	Success: Finished cloning repository files
+2026-10-12T14:09:27.333808Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-10-12T14:09:27.334114Z	
+2026-10-12T14:09:27.453994Z	No Wrangler configuration file found. Continuing.
+2026-10-12T14:09:27.454242Z	No build command specified. Skipping build step.
+2026-10-12T14:09:27.4546Z	Note: No functions dir at /functions found. Skipping.
+2026-10-12T14:09:27.454673Z	Validating asset output directory
+2026-10-12T14:09:28.639426Z	Deploying your site to Cloudflare's global network...
+2026-10-12T14:09:30.844044Z	Uploading... (0/9)
+2026-10-12T14:09:31.478591Z	Uploading... (3/9)
+2026-10-12T14:09:31.585167Z	Uploading... (6/9)
+2026-10-12T14:09:32.13255Z	Uploading... (9/9)
+2026-10-12T14:09:32.13284Z	✨ Success! Uploaded 9 files (2.17 sec)
+2026-10-12T14:09:32.132922Z	
+2026-10-12T14:09:35.828423Z	✨ Upload complete!
+2026-10-12T14:09:37.49673Z	Success: Assets published!
+2026-10-12T14:09:38.632305Z	Success: Your site was deployed!
