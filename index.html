@@ -310,35 +310,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <form action="https://api.web3forms.com/submit" method="POST">
-    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
-    <input type="text" name="name" required>
-    <input type="email" name="email" required>
-    <textarea name="message" required></textarea>
-    
-    <! -- Step 1: Add this line -->
+  <! -- Step 1: Add this line -->
+  <input type="hidden" name="access_key" value="c6942310-2232-40ad-91b1-5b0001730727">
+  <div class="mb-3">
+    <label for="userName" class="form-label">Name</label>
+    <input type="text" class="form-control" id="userName">
+  </div>
+  <div class="mb-3">
+    <label for="userEmailAddress" class="form-label">Email</label>
+    <input type="email" class="form-control" id="userEmailAddress">
+  </div>
+    <div class="mb-3">
+    <label for="userMessage" class="form-label">Message</label>
+    <textarea id="userMessage" name="message" class="form-control" rows="5" required></textarea>
+  </div>
     <div class="h-captcha" data-captcha="true"></div>
-    
-    <button type="submit">Submit Form</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
 <! -- Step 2: Add the script -->
 <script src="https://web3forms.com/client/script.js" async defer></script>
-  
-  <!-- <form action="https://api.web3forms.com/submit" method="POST">
-  <div class="form-group">
-  <input type="hidden" name="access_key" value="c6942310-2232-40ad-91b1-5b0001730727">
-  </div>
-  <div class="form-group">
-<input type="text" placeholder="Your Name" required>
-</div>
-<div class="form-group">
-<input type="email" placeholder="Your Email" required>
-</div>
-<div class="form-group">
-<textarea placeholder="Your Message" rows="5" required></textarea>
-</div>
-<button type="submit" class="submit-button">Send Message</button>
-</form> -->
 </div>
 </div>
 </section>
