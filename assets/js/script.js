@@ -64,7 +64,7 @@ if (contactForm) {
         e.preventDefault();
 
         // Get form values
-        const formData = new FormData(contactForm);
+        // const formData = new FormData(contactForm);
         const name = contactForm.querySelector('input[type="text"]').value;
         const email = contactForm.querySelector('input[type="email"]').value;
         const message = contactForm.querySelector('textarea').value;
@@ -136,7 +136,7 @@ function showNotification(message, type) {
 // Add animation styles for notifications
 if (!document.querySelector('style[data-notification]')) {
     const style = document.createElement('style');
-    style.setAttribute('data-notification', 'true');
+    style.dataset.set('data-notification', 'true');
     style.textContent = `
         @keyframes slideInRight {
             from {
@@ -169,7 +169,6 @@ window.addEventListener('scroll', () => {
 
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
         if (pageYOffset >= sectionTop - 200) {
             current = section.getAttribute('id');
         }
@@ -300,7 +299,7 @@ function animateCounters() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 stats.forEach(stat => {
-                    const target = parseInt(stat.textContent);
+                    const target = Number.parseInt(stat.textContent);
                     let current = 0;
                     const increment = target / 30;
 
@@ -421,7 +420,7 @@ function lazyLoadImages() {
             if (entry.isIntersecting) {
                 const img = entry.target;
                 img.src = img.dataset.src;
-                img.removeAttribute('data-src');
+                img.dataset.remove('data-src');
                 imageObserver.unobserve(img);
             }
         });
@@ -486,8 +485,8 @@ document.querySelectorAll('a, button').forEach(el => {
 });
 
 function getCurrentDate(){
-dT = new Date();
-return dT;
+const currentDate = new Date();
+return currentDate;
 }
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
