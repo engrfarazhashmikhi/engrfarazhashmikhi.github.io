@@ -439,7 +439,7 @@ window.addEventListener('load', () => {
 });
 
 // ==================== Console Message ====================
-console.log('%cWelcome to Faraz Hashmikhi\'s Portfolio! 👨‍💻', 'color: #667eea; font-size: 20px; font-weight: bold;');
+console.log('%cWelcome to Engr. Faraz Hashmi\'s Portfolio! 👨‍💻', 'color: #667eea; font-size: 20px; font-weight: bold;');
 console.log('%cFeel free to explore and get in touch!', 'color: #764ba2; font-size: 14px;');
 
 // ==================== Performance Optimization ====================
@@ -492,3 +492,7 @@ return dT;
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+const greetings = "Assalam-O-Alaikum! Welcome to my portfolio. I hope you find it informative and engaging. Feel free to explore my projects and get in touch if you have any questions or opportunities to collaborate.";
+console.log(greetings);
+    
