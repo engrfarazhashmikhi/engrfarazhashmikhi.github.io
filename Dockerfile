@@ -6,4 +6,5 @@ RUN apt clean \
 && apt-get install apache2 apache2-* -y;
 WORKDIR /var/www/html/
 COPY . .
+EXPOSE 80
 CMD ["apache2ctl", "-D", "FOREGROUND"]
