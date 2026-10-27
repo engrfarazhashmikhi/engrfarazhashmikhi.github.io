@@ -136,7 +136,7 @@ function showNotification(message, type) {
 // Add animation styles for notifications
 if (!document.querySelector('style[data-notification]')) {
     const style = document.createElement('style');
-    style.dataset.set('data-notification', 'true');
+    style.setAttribute('data-notification', 'true');
     style.textContent = `
         @keyframes slideInRight {
             from {
