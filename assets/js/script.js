@@ -494,4 +494,3 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
 const greetings = "Assalam-O-Alaikum! Welcome to my portfolio. I hope you find it informative and engaging. Feel free to explore my projects and get in touch if you have any questions or opportunities to collaborate.";
 console.log(greetings);
-alert(greetings);
