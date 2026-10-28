@@ -542,26 +542,6 @@ body {
 
 /* ==================== Responsive Design ==================== */
 @media (max-width: 768px) {
-    .hamburger {
-        display: flex;
-    }
-
-    .nav-menu {
-        display: none;
-    }
-
-    .nav-menu.active {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-        padding: 2rem;
-        gap: 1rem;
-    }
-
     .hero-title {
         font-size: 2.5rem;
     }
@@ -627,12 +607,6 @@ body {
 
     .skills-container {
         grid-template-columns: 1fr;
-    }
-
-    .nav-menu.active {
-        top: 60px;
-        padding: 1rem;
-        gap: 0.5rem;
     }
 }
 
