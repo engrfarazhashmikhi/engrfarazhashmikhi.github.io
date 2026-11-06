@@ -301,7 +301,8 @@ body {
 
 .tag {
     background-color: var(--light-bg);
-    color: var(--primary-color);
+    /** color: var(--primary-color); **/
+    color: var(--text-dark);
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
     font-size: 0.8rem;
