@@ -23,4 +23,5 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Standard Sitemap declaration (Uncomment and update the line below if you add a sitemap.xml)
-# Sitemap: https://pages.dev
+
+Sitemap: https://engrfarazhashmi.pages.dev/sitemap.xml
